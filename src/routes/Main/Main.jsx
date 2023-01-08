@@ -1,6 +1,6 @@
 import React from 'react';
 import Offer from '../../components/Offer/Offer';
-import MainImg from '../../assets/images/MainPage-mainImg.png';
+import MainImg from '../../assets/images/mainPage-mainImg.png';
 import LeftSideImg from "../../assets/icons/Repair";
 
 const Main = () => {

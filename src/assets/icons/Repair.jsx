@@ -30,7 +30,7 @@ const Repair = () => {
             </g>
             <defs>
                 <filter id="filter0_bii_130_531" x="-100.77" y="-74.78" width="614.573" height="300.1"
-                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
                     <feFlood floodOpacity="0" result="BackgroundImageFix"/>
                     <feGaussianBlur in="BackgroundImageFix" stdDeviation="55.5"/>
                     <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_130_531"/>

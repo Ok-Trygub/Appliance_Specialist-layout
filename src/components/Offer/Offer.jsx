@@ -14,9 +14,9 @@ const Offer = (props) => {
                 <img src={mainImg} alt="mainImg" className='relative z-50'/>
 
                 <div className='border-[2px] inline-block absolute xl:left-[78px]
-                sm:absolute sm:top-0 sm:left-[28px] md:top-[2px] md:left-[38px] lg:top-[4px] xl:top-[8px] xl:left-[63px]
-                2xl:top-[16px] 2xl:left-[82px] sm:w-[210px] md:w-[240px] lg:w-[350px] xl:w-[440px] 2xl:w-[520px] z-10 px-2 pt-3
-                sm:px-3 sm:pb-5 sm:pt-4 md:pb-6 lg:px-7 lg:pt-6 lg:pb-9 xl:px-9 xl:pt-7 xl:pb-11 2xl:px-10 2xl:pt-8 2xl:pb-12
+                sm:absolute sm:top-0 sm:left-[28px] md:top-[6px] md:left-[38px] lg:top-[5px] xl:top-[10px] xl:left-[63px]
+                2xl:top-[16px] 2xl:left-[73px] sm:w-[210px] md:w-[240px] lg:w-[350px] xl:w-[440px] 2xl:w-[520px] z-10 px-2 pt-3
+                sm:px-3 sm:pb-5 sm:pt-6 md:pb-6 lg:px-7 lg:pt-8 lg:pb-9 xl:px-9 xl:pt-10 xl:pb-11 2xl:px-10 2xl:pt-12 2xl:pb-12
                 repairBorder leftSideImg'>
                     {props.children}
                 </div>

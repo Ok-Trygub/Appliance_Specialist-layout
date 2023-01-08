@@ -10,16 +10,26 @@ html {
     background-color: #131313;
     font-family: 'IBM Plex Sans', sans-serif;
     color: #ffffff75;
-    font-size: 20px;
-    line-height: 1.28;
     font-weight: 400;
 }
 
 
 @layer components {
-    .containerStyle {
+    .offerContainerStyle {
         @apply container mx-auto px-5 md:px-7 lg:px-8 xl:px-14;
     }
+
+    .containerStyle {
+        @apply container mx-auto px-10 sm:px-20 md:px-28 lg:px-36 xl:px-56;
+    }
+
+    .navItem {
+        @apply mr-2 mb-[1px] sm:mr-3 lg:mr-6 xl:mr-7 2xl:mr-10 active:text-mainRed active:border-b-2 active:border-b-mainRed;
+    }
+
+
+
+
 }
 
 
