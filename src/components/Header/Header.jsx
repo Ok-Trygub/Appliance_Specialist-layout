@@ -61,7 +61,7 @@ const Header = () => {
                 flex items-center'>
                     <img src={PhoneIcon} alt="phone_icon"
                          className='pr-1 md:pr-2.5 w-4 h-4 md:w-6 md:h-6 lg:w-7 lg:h-7'/>
-                    + 1 (23) 456 - 78 - 90
+                      + 1 (23) 456 - 78 - 90
                 </span>
             </div>
         </header>

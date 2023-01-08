@@ -6,6 +6,7 @@ import Services from "./routes/Services/Services";
 import Reviews from "./routes/Reviews/Reviews";
 import RepairTips from './routes/RepairTips/RepairTips';
 import Contacts from './routes/Contacts/Contacts';
+import Footer from "./components/Footer/Footer";
 
 function App() {
     return (
@@ -19,6 +20,7 @@ function App() {
                 <Route path='/repair_tips' element={<RepairTips/>}/>
                 <Route path='/contacts' element={<Contacts/>}/>
             </Routes>
+            <Footer/>
         </div>
     );
 }

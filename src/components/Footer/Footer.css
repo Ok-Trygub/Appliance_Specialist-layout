@@ -1,0 +1,15 @@
+@tailwind components;
+
+@layer components {
+    .footerNavHeader {
+        @apply text-[20px] leading-6 text-mainRed pb-3.5;
+    }
+
+    .footerNavItem {
+        @apply text-[15px] leading-5 pb-2.5 hover:text-white active:text-white;
+    }
+
+    .footerNavItem:last-child {
+        padding-bottom: 0;
+    }
+}
