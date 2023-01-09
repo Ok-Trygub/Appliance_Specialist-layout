@@ -1,0 +1,9 @@
+@tailwind components;
+
+
+@layer components {
+    .serviceItem {
+        @apply text-[20px] sm:text-[30px] xl:text-[40px] leading-[52px] tracking-wider tracking-[0.04em]
+        uppercase py-7 border-b-[1px] border-b-[#f242422b];
+    }
+}
