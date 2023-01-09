@@ -1,7 +1,7 @@
 import React from 'react';
-import Offer from '../../components/Offer/Offer';
+import MainOffer from '../../components/MainOffer/MainOffer';
 import MainImg from '../../assets/images/mainPage-mainImg.png';
-import LeftSideImg from "../../assets/icons/Repair";
+import RepairImg from "../../assets/icons/Repair";
 import ServicesBlock from "../../components/ServicesBlock/ServicesBlock";
 import Advantages from '../../components/Adventages/Adventages';
 
@@ -33,15 +33,14 @@ const Main = () => {
         },
     ]
 
-
     return (
         <main>
-            <Offer
+            <MainOffer
                 mainImg={MainImg}
                 offerText={offerText}
             >
-                <LeftSideImg/>
-            </Offer>
+                <RepairImg/>
+            </MainOffer>
 
             <div className='my-[40px] lg:my-[80px] xl:mt-[120px] xl:mb-[130px]'>
                 <ServicesBlock services={services}/>

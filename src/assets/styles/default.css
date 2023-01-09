@@ -21,10 +21,15 @@ html {
 }
 
 
+.repairBorder {
+    filter: blur(0.033px);
+    border-color: #F24242;
+}
+
 
 @layer components {
     .offerContainerStyle {
-        @apply container mx-auto px-5 md:px-7 lg:px-8 xl:px-14;
+        @apply container mx-auto px-5 md:px-7 lg:px-8 xl:px-6;
     }
 
     .containerStyle {

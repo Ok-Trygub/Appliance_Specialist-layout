@@ -1,0 +1,65 @@
+
+.aboutIcon {
+    top: -13px;
+    left: 0;
+    width: 120px;
+    padding-bottom: 10px;
+}
+
+.aboutText {
+    position: absolute;
+    top: -3px;
+    right: 8px;
+    max-width: 111px;
+}
+
+
+@media screen and (min-width: 403px) {
+    .aboutIcon {
+        top: -6px;
+        left: 6px;
+    }
+
+    .aboutText {
+        right: 19px;
+    }
+}
+
+
+@media screen and (min-width: 448px) {
+    .aboutIcon {
+        left: 9px;
+        top: 0;
+    }
+
+    .aboutText {
+        right: 30px;
+    }
+}
+
+
+@media screen and (min-width: 492px) {
+    .aboutIcon {
+        left: 3px;
+        top: -13px;
+        width: 180px;
+    }
+
+    .aboutText {
+        top: -3px;
+        right: 50px;
+    }
+}
+
+
+@media screen and (min-width: 566px) {
+    .aboutIcon {
+        left: 7px;
+        top: -7px;
+        padding-bottom: 15px;
+    }
+
+    .aboutText {
+        right: 75px;
+    }
+}

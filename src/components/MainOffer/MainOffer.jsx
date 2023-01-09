@@ -1,14 +1,14 @@
 import React from 'react';
-import './Offer.css';
+import './MainOffer.css';
 import DirectionOffer from '../../assets/icons/DirectionOffer';
 
 
-const Offer = (props) => {
+const MainOffer = (props) => {
     const {mainImg, offerText} = props;
 
 
     return (
-        <div className='mx-auto container mx-auto px-5 md:px-7 lg:px-8 xl:px-6'>
+        <div className='offerContainerStyle'>
 
             <div className='relative'>
                 <img src={mainImg} alt="mainImg" className='relative z-50'/>
@@ -38,4 +38,4 @@ const Offer = (props) => {
     );
 };
 
-export default Offer;
+export default MainOffer;
