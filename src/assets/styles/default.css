@@ -1,10 +1,7 @@
-
 @import "./fonts.css";
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 
 
 html {
@@ -15,15 +12,21 @@ html {
     font-weight: 400;
 }
 
-
 .borderStyle {
     border-color: #f242422b;
 }
 
-
 .repairBorder {
     filter: blur(0.033px);
     border-color: #F24242;
+}
+
+.articleTitle {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: 0.085em;
 }
 
 
@@ -44,8 +47,6 @@ html {
     .headerUnderline{
         @apply border-b-4 border-b-mainRed pl-2 md:pl-5 xl:pl-10 pb-3
     }
-
-
 }
 
 
@@ -63,4 +64,3 @@ html {
         @apply text-white text-[20px] sm:text-[30px] xl:text-[50px] leading-[65px] uppercase
     }
 }
-

@@ -1,0 +1,76 @@
+.tipsIcon {
+    top: 24px;
+    left: -14px;
+    width: 120px;
+    padding-bottom: 10px;
+}
+
+.tipsText {
+    position: absolute;
+    top: 40px;
+    right: -8px;
+    max-width: 111px;
+}
+
+@media screen and (min-width: 400px) {
+    .tipsIcon {
+        top: 38px;
+        left: -5px;
+    }
+
+    .tipsText {
+        right: 0;
+    }
+}
+
+@media screen and (min-width: 446px) {
+    .tipsIcon {
+        left: -14px;
+        top: 40px;
+        width: 140px;
+    }
+
+    .tipsText {
+        right: 16px;
+        top: 50px;
+    }
+}
+
+@media screen and (min-width: 492px) {
+    .tipsIcon {
+        left: -15px;
+        top: 42px;
+        width: 160px;
+    }
+
+    .tipsText {
+        top: 65px;
+        right: 30px;
+    }
+}
+
+@media screen and (min-width: 533px) {
+    .tipsIcon {
+        left: -5px;
+        top: 52px;
+        padding-bottom: 15px;
+    }
+
+    .tipsText {
+        right: 45px;
+    }
+}
+
+@media screen and (min-width: 590px) {
+    .tipsIcon {
+        left: -8px;
+        top: 58px;
+        padding-bottom: 15px;
+        width: 180px;
+    }
+
+    .tipsText {
+        top: 80px;
+        right: 60px;
+    }
+}

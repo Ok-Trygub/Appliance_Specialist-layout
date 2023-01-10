@@ -4,6 +4,7 @@ import MainImg from '../../assets/images/mainPage-mainImg.png';
 import RepairImg from "../../assets/icons/Repair";
 import ServicesBlock from "../../components/ServicesBlock/ServicesBlock";
 import Advantages from '../../components/Adventages/Adventages';
+import Kitchen from '../../assets/images/kitchenOven.png';
 
 const Main = () => {
     const offerText = 'Lorem ipsum dolor sit amet consectetur. Tincidunt vitae vel ut mauris libero quis morbi. Ut habitasse nisi mollis sapien.'
@@ -47,7 +48,10 @@ const Main = () => {
             </div>
 
             <div className='mb-[40px] lg:pb-[80px] xl:pb-[120px]'>
-                <Advantages advantagesData={advantagesData}/>
+                <Advantages
+                    advantagesData={advantagesData}
+                    advantagesImg={Kitchen}
+                />
             </div>
         </main>
     );

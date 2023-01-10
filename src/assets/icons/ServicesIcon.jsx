@@ -42,7 +42,7 @@ const ServicesIcon = () => {
             </g>
             <defs>
                 <filter id="filter0_bii_157_999" x="-106.38" y="-76.1001" width="742.106" height="301.42"
-                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
                     <feFlood floodOpacity="0" result="BackgroundImageFix"/>
                     <feGaussianBlur in="BackgroundImageFix" stdDeviation="55.5"/>
                     <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_157_999"/>

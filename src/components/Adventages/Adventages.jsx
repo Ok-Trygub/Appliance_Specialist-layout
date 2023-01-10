@@ -1,12 +1,11 @@
 import React from 'react';
 import './Adventages.css';
-import Kitchen from '../../assets/images/kitchenOven.png';
 import {Disclosure} from '@headlessui/react';
 import {MinusIcon, PlusIcon} from '@heroicons/react/20/solid';
 
 
 const Advantages = (props) => {
-    const {advantagesData} = props;
+    const {advantagesData, advantagesImg} = props;
 
 
     return (
@@ -55,7 +54,7 @@ const Advantages = (props) => {
                 </div>
 
                 <div className='hidden sm:block'>
-                    <img src={Kitchen} alt=""/>
+                    <img src={advantagesImg} alt=""/>
                 </div>
             </div>
         </div>

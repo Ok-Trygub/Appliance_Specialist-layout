@@ -10,7 +10,7 @@ const Services = () => {
     const services = ['washing machine repair', 'Dryer Repair', 'Refrigerator Repair', 'Range Repair', 'Wall Ovens Repair', 'Garbage Disposal Repair'];
 
     return (
-        <main className=''>
+        <main>
             <ServicesOffer
                 mainImg={ServicesMainImg}
                 offerText={offerText}

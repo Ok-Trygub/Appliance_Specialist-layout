@@ -2,7 +2,6 @@ import React from 'react';
 import AboutOffer from '../../components/AboutOffer/AboutOffer';
 import AboutIcon from "../../assets/icons/About";
 import AboutMainImg from '../../assets/images/about_mainImg.png';
-import './AboutUs.css';
 import MasterImg from '../../assets/images/master.png';
 
 const AboutUs = () => {
