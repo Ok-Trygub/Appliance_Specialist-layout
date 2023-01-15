@@ -1,0 +1,61 @@
+.reviewIcon {
+    top: -30px;
+    left: 14px;
+    width: 120px;
+    display: none !important;
+}
+
+.reviewText {
+    position: absolute;
+    top: -2px;
+    right: 8px;
+    max-width: 111px;
+}
+
+@media screen and (min-width: 403px) {
+    .reviewIcon {
+        top: -29px;
+        left: 25px;
+    }
+
+    .reviewText {
+        right: 26px;
+    }
+}
+
+@media screen and (min-width: 448px) {
+    .reviewIcon {
+        left: 43px;
+        top: -28px;
+    }
+
+    .reviewText {
+        right: 42px;
+    }
+}
+
+@media screen and (min-width: 492px) {
+    .reviewIcon {
+        left: -2px;
+        top: -35px;
+        width: 180px;
+        display: inline-block !important;
+    }
+
+    .reviewText {
+        top: -3px;
+        right: 62px;
+    }
+}
+
+@media screen and (min-width: 566px) {
+    .reviewIcon {
+        left: 26px;
+        top: -40px;
+        padding-bottom: 15px;
+    }
+
+    .reviewText {
+        right: 86px;
+    }
+}
